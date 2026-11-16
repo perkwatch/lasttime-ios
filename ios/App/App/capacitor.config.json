@@ -1,0 +1,22 @@
+{
+	"android": {
+		"allowMixedContent": false
+	},
+	"appId": "com.buckthem.lasttime",
+	"appName": "Baby's First Tracker",
+	"backgroundColor": "#ffffff",
+	"ios": {
+		"contentInset": "always",
+		"preferredContentMode": "mobile"
+	},
+	"server": {
+		"androidScheme": "https",
+		"cleartext": false,
+		"url": "https://buckthem.com/lasttime/app"
+	},
+	"webDir": "www",
+	"packageClassList": [
+		"PushNotificationsPlugin",
+		"SharePlugin"
+	]
+}
